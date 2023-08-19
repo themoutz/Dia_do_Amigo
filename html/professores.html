@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professores</title>
+
+    <link rel="icon" href="../Imagens e vídeo/Outras/favicon-16x16.png">
+    <link rel="stylesheet" href="../css/professores.css">
+
+</head>
+<body>
+    
+    <ul id="menu-horizontal">
+        <li>
+            <a href="../dia_do_amigo.html"><img src="../Imagens e vídeo/Outras/Logo_branca.png" alt=""></a>
+        </li>
+    </ul>
+
+    <p class="titulo1">Língua Portuguesa</p>
+
+    <div class="professor">
+        <div class="imagem"> <img src="../Imagens e vídeo/Professores/Cássia-1.jpeg" alt=""> </div>
+        <div class="imagem"> <img src="../Imagens e vídeo/Professores/Cássia-2.jpeg" alt=""> </div>
+    </div>
+    
+    <p class="titulo2">Cássia</p>
+
+    <hr>
+
+    <p class="titulo1-2">História</p>
+        
+    <div class="professor">
+        <div class="imagem"> <img src="../Imagens e vídeo/Professores/Erlan.jpeg" alt=""> </div>
+    </div>
+
+    <p class="titulo2-2">Érlan</p>
+
+    <hr>
+
+    <p class="titulo1-2">Física e Química</p>
+
+    <div class="professor">
+        <div class="imagem"> <img src="../Imagens e vídeo/Professores/Mário (F_Q).jpeg" alt="" id="mario"> </div>
+
+        <audio src="../Músicas/HINO DO VASCO DA GAMA.mp3" id="audio-player"></audio>
+    </div>
+
+    <script>
+        const imagemMusica = document.getElementById("mario");
+        const audioPlayer = document.getElementById("audio-player");
+
+        imagemMusica.addEventListener("click", function() {
+            if (audioPlayer.paused) {
+                audioPlayer.play();
+            } else {
+                audioPlayer.pause();
+            }
+        });
+    </script>
+    
+    <p class="titulo2-2">Mário</p>
+
+    <hr class="hr2">
+
+    <p class="titulo1">Educação Física</p>
+
+    <div class="professor">
+        <div class="imagem"> <img src="../Imagens e vídeo/Professores/Lílian-1.jpeg" alt=""> </div>
+        <div class="imagem"> <img src="../Imagens e vídeo/Professores/Lílian-2.jpeg" alt=""> </div>
+    </div>
+    
+    <p class="titulo2">Lílian</p>
+
+    <hr>
+
+    <p class="titulo1-2">Programação Web</p>
+
+    <div class="professor">
+        <div class="imagem"> <img src="../Imagens e vídeo/Professores/Mário (PW).jpeg" alt=""> </div>
+    </div>
+    
+    <p class="titulo2-2">Mário</p>
+
+    <hr>
+
+    <p class="titulo1-2">Matemática</p>
+
+    <div class="professor">
+        <div class="imagem"> <img src="../Imagens e vídeo/Professores/Szuster-1.jpeg" alt=""> </div>
+    </div>
+    
+    <p class="titulo2-2">Szuster</p>
+
+    <hr class="hr3">
+
+    <p class="titulo1-2">Banco de Dados</p>
+
+    <div class="professor">
+        <div class="imagem"> <img src="../Imagens e vídeo/Professores/Amaral_e_Fernanda.jpeg" alt=""> </div>
+    </div>
+    
+    <p class="titulo2-2">Amaral e Fernanda</p>
+
+</body>
+</html>

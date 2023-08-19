@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family= família= ABeeZee &Open +Sans & display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    padding-bottom: 50%;
+}
+
+p {
+    text-align: center;
+    margin-top: 5%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 160%;
+    width: 70%;
+}
+
+#menu-horizontal {
+    position: relative;
+    width: 100%;
+    height: 80.1px;
+    list-style: none;
+    padding: 0;
+    background-color: #FF0000;
+    border-bottom: solid black 4px;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 2;
+}
+
+#menu-horizontal li {
+    display: inline;
+    padding: 5px;
+}
+
+#menu-horizontal img {
+    float: left;
+    width: 90px;
+    margin-top: 18px;
+    margin-left: 20px;
+}
+
+.content {
+    width: 80%;
+    border-radius: 20px;
+    position: absolute;
+    margin-top: 25%;
+    left: 50%;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+}
+
+.navigation {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+
+.bar {
+    width: 70px;
+    height: 17px;
+    border: 2px solid white;
+    margin: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.bar:hover {
+    background-color: white;
+}
+
+input {
+    display: none;
+}
+
+.slides {
+    display: flex;
+    width: 300%;
+    height: 100%;
+}
+
+.slide {
+    width: 33.33%;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+#slide1:checked ~ .s1 {
+    margin-left: 0;
+}
+
+#slide2:checked ~ .s1 {
+    margin-left: -55.55%;
+}
+
+#slide3:checked ~ .s1 {
+    margin-left: -333.3%;
+}

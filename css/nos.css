@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family= família= ABeeZee &Open +Sans & display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    padding-bottom: 50%;
+}
+
+#menu-horizontal {
+    position: relative;
+    width: 100%;
+    height: 80.1px;
+    list-style: none;
+    padding: 0;
+    background-color: #FF0000;
+    border-bottom: solid black 4px;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 2;
+}
+
+#menu-horizontal li {
+    display: inline;
+    padding: 5px;
+}
+
+#menu-horizontal img {
+    float: left;
+    width: 90px;
+    margin-top: 18px;
+    margin-left: 20px;
+}
+
+#foto {
+    width: 25%;
+    margin-top: 5%;
+    margin-left: 5%;
+    text-align: center;
+    display: inline-block;
+}
+
+#foto-principal {
+    width: 100%;
+    border-radius: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#foto p {
+    font-size: 160%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+#instagram {
+    padding: 5px;
+    margin-left: 5%;
+    width: 25%;
+    position: relative;
+    text-align: center;
+}
+
+#instagram .logo,
+#instagram .arroba {
+    display: inline-block;
+}
+
+#instagram img {
+    margin-top: 25px;
+    width: 11%
+}
+
+#instagram .arroba a {
+    padding-left: 5px;
+    font-size: 160%;
+}
+
+#musicas-favoritas {
+    position: relative;
+    width: 14.9%;
+    margin-top: -36%;
+    margin-left: auto;
+    margin-right: 25%;
+}
+
+#musicas-favoritas p {
+    font-size: 160%;
+}
+
+#musicas {
+    float: none;
+    position: relative;
+    margin-right: 5%;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#musica-1 {
+    display: inline-block;
+    margin-right: 66.5%;
+    text-align: center;
+}
+
+#imagem-musica1 {
+    cursor: pointer;
+    width: 90%;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+    margin-left: 12%;
+}
+
+#musica1 {
+    font-size: 120%;
+    margin-left: 12%;
+    margin-top: 3%;
+}
+
+#musica-2 {
+    display: inline-block;
+    margin-right: 66.5%;
+    text-align: center;
+}
+
+#imagem-musica2 {
+    cursor: pointer;
+    width: 90%;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+    margin-left: 12%;
+}
+
+#musica2 {
+    font-size: 120%;
+    margin-left: 12%;
+    margin-top: 3%;
+}
+
+#musica-3 {
+    display: inline-block;
+    margin-right: 66.5%;
+    text-align: center;
+}
+
+#imagem-musica3 {
+    cursor: pointer;
+    width: 90%;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+    margin-left: 12%;
+}
+
+#musica3 {
+    font-size: 120%;
+    margin-left: 12%;
+    margin-top: 3%;
+}
+
+.classificacao {
+    left: -47%;
+    position: relative;
+    top: 20px;
+    font-size: 130%;
+}
+
+#musica-1, #musica-2, #musica-3 {
+    width: calc(32.95% - 20px);
+    margin-right: 20px;
+    text-align: center;
+    vertical-align: top;
+}
+
+#musica-1:last-child, #musica-2:last-child, #musica-3:last-child {
+    margin-right: 0;
+}
+
+#preferencias {
+    position: relative;
+    float: none;
+    margin-top: 5%;
+    margin-right: 5%;
+    width: 60%;
+}
+
+#titulo {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 160%;
+}
+
+#texto {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 120%;
+    text-align: justify;
+}
+
+.filmes-jogos-favoritos {
+    left: 35%;
+    margin-top: 5%;
+    margin-right: 86%;
+    position: relative;
+}
+
+.filmes-jogos-favoritos p {
+    font-size: 160%;
+}
+
+.filmes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 60%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+.filme-e-jogo {
+    margin-right: 66.5%;
+    text-align: center;
+}
+
+.capa-filme {
+    cursor: pointer;
+    width: 70%;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.titulo-filme {
+    font-size: 120%;
+    margin-top: 3%;
+}
+
+.filme-e-jogo {
+    display: inline-block;
+    width: calc(33.33% - 20px);
+    margin-right: 20px;
+    text-align: center;
+    vertical-align: top;
+    transform: scale(1);
+    transition: transform 0.3s;
+}
+
+.filme-e-jogo:last-child {
+    margin-right: 0;
+}
+
+.filme-e-jogo:hover {
+    transform: scale(1.05);
+}
+
+#rotina-escolar {
+    position: relative;
+    margin-top: -57.2%;
+    margin-left: 5%;
+}
+
+#rotina-escolar p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 160%;
+}
+
+#video {
+    margin-top: 1.5%;
+    position: relative;
+    float: none;
+    margin-left: 5%;
+    width: 25%;
+}
+
+#video video {
+    width: 100%;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+#galeria {
+    text-align: center;
+    position: relative;
+    float: right;
+    width: 90%;
+    margin-top: 15%;
+    margin-right: 5%;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+#galeria p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 160%;
+    padding: 20px;
+}
+
+#galeria img {
+    width: 100%;
+    display: block;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+#galeria .fotos {
+    padding: 2%;
+    padding-bottom: 10%;
+    width: 32.5%;
+    display: inline-block;
+}
+
+#galeria .fotos:target {
+    position: fixed;
+    width: 40%;
+    top: 15px;
+    right: 30%;
+    padding: 5px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+    background: #fff;
+    border-radius: 5px;
+}
+
+.fechar {
+    display: none;
+}
+
+#galeria .fotos:target .fechar {
+    display: block;
+}
+
+#galeria .fotos:target img {
+    box-shadow: none;
+}
+
+#galeria .fotos:target .fechar a {
+    padding-top: 10px;
+    font-size: 120%;
+    float: left;
+}

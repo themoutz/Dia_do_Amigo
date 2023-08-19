@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santista</title>
+
+    <link rel="icon" href="../Imagens e vídeo/Outras/favicon-16x16.png">
+    <link rel="stylesheet" href="../css/nos.css">
+
+</head>
+<body>
+    
+    <ul id="menu-horizontal">
+        <li>
+            <a href="../dia_do_amigo.html"><img src="../Imagens e vídeo/Outras/Logo_branca.png" alt=""></a>
+        </li>
+    </ul>
+
+    <div id="foto">
+        <img src="../Imagens e vídeo/Freitas/fp_santista.PNG" alt="" id="foto-principal">
+
+    <div id="identificacao">
+        <p>Santista</p>
+        <p>(Gustavo Freitas)</p>
+    </div>
+
+    </div>
+
+    <div id="instagram">
+        <div class="logo"> <a href="https://www.instagram.com/gusta.xl_7/"><img src="../Imagens e vídeo/Outras/instagram_logo.png" alt=""></a></div>
+        <div class="arroba"> <a href="https://www.instagram.com/gusta.xl_7/" id="arroba">@gusta.xl_7</a> </div>
+    </div>
+
+    <div id="musicas-favoritas">
+        <p> Musicas favoritas </p>
+    </div>
+
+    <div id="musicas">
+        <div id="musica-1">
+            <p class="classificacao">1°</p>
+            <img src="../Músicas/Freitas/Capa da música/hear_me_now.jpg" alt="Capa do Álbum" id="imagem-musica1">
+            <audio src="../Músicas/Freitas/Música/hear_me_now.mp3" id="audio-player1"></audio>
+            <p id="musica1">Hear Me Now</p>
+        </div>
+
+        <div id="musica-2">
+            <p class="classificacao">2°</p>
+            <img src="../Músicas/Freitas/Capa da música/evidencias.jpeg" alt="Capa do Álbum" id="imagem-musica2">
+            <audio src="../Músicas/Freitas/Música/evidencias.mp3" id="audio-player2"></audio>
+            <p id="musica2">Evidências</p>
+        </div>
+
+        <div id="musica-3">
+            <p class="classificacao">3°</p>
+            <img src="../Músicas/Freitas/Capa da música/anunciacao.webp" alt="Capa do Álbum" id="imagem-musica3">
+            <audio src="../Músicas/Freitas/Música/Anunciação.mp3" id="audio-player3"></audio>
+            <p id="musica3">Anunciação</p>
+        </div>
+
+        <script>
+            const imagemMusica = document.getElementById("imagem-musica1");
+            const audioPlayer = document.getElementById("audio-player1");
+
+            imagemMusica.addEventListener("click", function() {
+                if (audioPlayer.paused) {
+                    audioPlayer.play();
+                } else {
+                    audioPlayer.pause();
+                }
+            });
+
+            const imagemMusica2 = document.getElementById("imagem-musica2");
+            const audioPlayer2 = document.getElementById("audio-player2");
+
+            imagemMusica2.addEventListener("click", function() {
+                if (audioPlayer2.paused) {
+                    audioPlayer2.play();
+                } else {
+                    audioPlayer2.pause();
+                }
+            });
+
+            const imagemMusica3 = document.getElementById("imagem-musica3");
+            const audioPlayer3 = document.getElementById("audio-player3");
+
+            imagemMusica3.addEventListener("click", function() {
+                if (audioPlayer3.paused) {
+                    audioPlayer3.play();
+                } else {
+                    audioPlayer3.pause();
+                }
+            });
+
+        </script>
+    </div>
+
+    <div id="preferencias">
+        <p id="titulo">Sobre</p>
+        <br>
+        <p id="texto">Sou o Santista, tenho 15 anos de idade. Gosto de filmes de ação e séries; na maior parte do meu
+            tempo livre eu jogo jogos online. Gosto de truco, cozinhar e escutar músicas eletrônicas, brasileiras e internacionais.
+        </p>
+    </div>
+
+    <div class="filmes-jogos-favoritos">
+        <p>Filmes favoritos</p>
+    </div>
+    <div class="filmes">
+        <div class="filme-e-jogo">
+            <p class="classificacao">1°</p>
+            <a href="https://www.imdb.com/title/tt4154796/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_avengers"><img src="../Filmes/Freitas/vingadores_ultimato.jpg" alt="" class="capa-filme"></a>
+            <p class="titulo-filme">Vingadores: Ultimato</p>
+        </div>
+
+        <div class="filme-e-jogo">
+            <p class="classificacao">2°</p>
+            <a href="https://www.imdb.com/title/tt4154756/?ref_=nv_sr_srsg_7_tt_8_nm_0_q_avangers"><img src="../Filmes/Freitas/vingadores_guerra_infinita.jpeg" alt="" class="capa-filme"></a>
+            <p class="titulo-filme">Vingadores: Guerra Infinita</p>
+        </div>
+
+        <div class="filme-e-jogo">
+            <p class="classificacao">3°</p>
+            <a href="https://www.imdb.com/title/tt1216475/?ref_=nv_sr_srsg_0_tt_2_nm_6_q_carros%25202"><img src="../Filmes/Freitas/carros_2.jpg" alt="" class="capa-filme"></a>
+            <p class="titulo-filme">Carros 2</p>
+        </div>
+    </div>
+
+    <div class="filmes-jogos-favoritos">
+        <p>Jogos favoritos</p>
+    </div>
+    <div class="filmes">
+        <div class="filme-e-jogo">
+            <p class="classificacao">1°</p>
+            <a href="https://www.imdb.com/title/tt6306554/"><img src="../Jogos/Freitas/fifa_17.jpg" alt="" class="capa-filme"></a>
+            <p class="titulo-filme">FIFA 17</p>
+        </div>
+
+        <div class="filme-e-jogo">
+            <p class="classificacao">2°</p>
+            <a href="https://www.imdb.com/title/tt2011970/"><img src="../Jogos/Freitas/Minecraft_capa.png" alt="" class="capa-filme"></a>
+            <p class="titulo-filme">Minecraft</p>
+        </div>
+
+        <div class="filme-e-jogo">
+            <p class="classificacao">3°</p>
+            <a href="https://www.imdb.com/title/tt0462448/"><img src="../Jogos/Freitas/nfs_most_wanted.jpg" alt="" class="capa-filme"></a>
+            <p class="titulo-filme">Need For Speed: Most Wanted</p>
+        </div>
+    </div>
+
+    <div id="rotina-escolar">
+        <p>Rotina escolar</p>
+    </div>
+
+    <div id="video">
+        <video src="../Imagens e vídeo/Freitas/rotina escolar - santista.mp4" controls></video>
+    </div>
+
+    <div id="galeria">
+        <p>Galeria de fotos</p>
+        <div class="fotos" id="foto1">
+            <a href="#foto1">
+                <img src="../Imagens e vídeo/Freitas/Santista 1.jpeg" alt="">
+            </a>
+            <div class="fechar">
+                <a href="#fechar">Fechar Imagem</a>
+            </div>
+        </div>
+        <div class="fotos" id="foto2">
+            <a href="#foto2">
+                <img src="../Imagens e vídeo/Freitas/santista_2.JPG" alt="">
+            </a>
+            <div class="fechar">
+                <a href="#fechar">Fechar Imagem</a>
+            </div>
+        </div>
+        <div class="fotos" id="foto3">
+            <a href="#foto3">
+                <img src="../Imagens e vídeo/Freitas/santista_3.JPG" alt="">
+            </a>
+            <div class="fechar">
+                <a href="#fechar">Fechar Imagem</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
